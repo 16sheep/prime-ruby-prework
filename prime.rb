@@ -5,7 +5,7 @@ def prime?(int)
     return FALSE
   else counter = int - 1
     counter.times do
-      print counter
+      print int
       if int % counter == 0 || counter < 2
         return FALSE
       else 

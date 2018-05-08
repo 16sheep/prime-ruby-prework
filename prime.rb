@@ -6,7 +6,7 @@ def prime?(int)
   else counter = int - 1
     counter.times do
       print int
-      if int % counter == 0 || counter < 2
+      if int % counter == 0 || counter < 1
         return FALSE
       else 
         counter = counter -1

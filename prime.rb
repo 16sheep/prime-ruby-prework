@@ -7,7 +7,6 @@ def prime?(int)
     loopcounter = int - 1
     counter = int - 1
     loopcounter.times do
-      print int
       if int % counter == 0 || counter < 1
         return FALSE
       else 

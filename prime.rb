@@ -4,7 +4,8 @@ def prime?(int)
   counter = int - 1
   counter.times do
     if int < 0 == TRUE
-      return "Meaoe"
+      print "Meaoe"
+      break
     elsif int % counter == 0
       return FALSE
       break

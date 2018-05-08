@@ -3,9 +3,10 @@
 def prime?(int)
   if int <= 2
     return FALSE
-  else 
+  else
+    loopcounter = int - 1
     counter = int - 1
-    counter.times do
+    loopcounter.times do
       print int
       if int % counter == 0 || counter < 1
         return FALSE

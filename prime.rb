@@ -1,7 +1,7 @@
 # Add  code here!
 
 def prime?(int)
-  if int <= 1
+  if int <= 2
     return FALSE
   else counter = int - 1
     counter.times do

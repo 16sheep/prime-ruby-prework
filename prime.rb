@@ -7,11 +7,11 @@ def prime?(int)
     loopcounter = int - 1
     counter = int - 1
     loopcounter.times do
-      if int % counter == 0 || counter < 1
+      if int % counter == 0
         return FALSE
-        print "meaow"
       else 
-        counter = counter - 1
+        until counter < 2
+         counter = counter - 1
       end
     end
   end

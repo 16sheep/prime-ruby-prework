@@ -2,8 +2,7 @@
 
 def prime?(int)
   if int <= 0
-    print "Meaoe"
-    return "mo"
+    return FALSE
   else counter = int - 1
     counter.times do
       if int % counter == 0

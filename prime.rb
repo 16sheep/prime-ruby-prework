@@ -5,6 +5,7 @@ def prime?(int)
   counter.times do
     if int <= 0 || int % counter == 0
       return FALSE
+      break
     end
   end
   TRUE

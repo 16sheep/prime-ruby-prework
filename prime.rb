@@ -6,14 +6,11 @@ def prime?(int)
   else
     loopcounter = int - 1
     counter = int - 1
-    loopcounter.times do
+    while counter > 2
       if int % counter == 0
         return FALSE
-      else 
-        until counter < 2
-         counter = counter - 1
-        end
       end
+       counter = counter - 1
     end
   end
   TRUE

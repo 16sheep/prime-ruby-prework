@@ -13,6 +13,6 @@ def prime?(int)
         counter = counter - 1
       end
     end
+    return TRUE
   end
-  return TRUE
 end

@@ -9,10 +9,11 @@ def prime?(int)
     loopcounter.times do
       if int % counter == 0 || counter < 1
         return FALSE
+        print "meaow"
       else 
         counter = counter - 1
       end
-      return TRUE
     end
   end
+  TRUE
 end

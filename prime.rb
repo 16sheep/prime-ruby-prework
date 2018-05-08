@@ -9,7 +9,7 @@ def prime?(int)
       if int % counter == 0 || counter < 1
         return FALSE
       else 
-        counter = counter -1
+        counter = counter - 1
       end
     end
   end

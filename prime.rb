@@ -12,6 +12,7 @@ def prime?(int)
       else 
         until counter < 2
          counter = counter - 1
+        end
       end
     end
   end

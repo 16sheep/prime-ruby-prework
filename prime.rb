@@ -8,7 +8,6 @@ def prime?(int)
       print counter
       if int % counter == 0 || counter < 2
         return FALSE
-        break
       else 
         counter -= counter
       end
